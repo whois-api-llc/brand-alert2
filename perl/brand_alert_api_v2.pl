@@ -32,7 +32,7 @@ my $url = 'https://brand-alert-api.whoisxmlapi.com/api/v2';
 # Use a JSON resource #
 #######################
 
-my $responseJson = JSON->new->decode(brandAlertApiSearch("json"));
+my $responseJson = JSON->new->decode(brandAlertApiSearch());
 print "JSON\n---\n";
 print JSON->new->pretty->encode($responseJson);
 
