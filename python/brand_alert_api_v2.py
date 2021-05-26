@@ -31,7 +31,7 @@ headers = {
     'Accept': 'application/json'
 }
 
-conn = http.HTTPSConnection('brand-alert-api.whoisxmlapi.com')
+conn = http.HTTPSConnection('brand-alert.whoisxmlapi.com')
 
 conn.request(
         'POST',

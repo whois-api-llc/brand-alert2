@@ -4,7 +4,7 @@ require 'openssl'
 require 'uri'
 require 'yaml' # only needed to print the returned result in a very pretty way
 
-url = 'https://brand-alert-api.whoisxmlapi.com/api/v2'
+url = 'https://brand-alert.whoisxmlapi.com/api/v2'
 
 ########################
 # Fill in your details #

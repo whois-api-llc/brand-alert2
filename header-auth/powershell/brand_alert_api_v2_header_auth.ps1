@@ -21,7 +21,7 @@ $params = @{
 # POST request        #
 #######################
 
-$uri = 'https://brand-alert-api.whoisxmlapi.com/api/v2'
+$uri = 'https://brand-alert.whoisxmlapi.com/api/v2'
 
 $response = Invoke-WebRequest -Uri $uri -Method POST -Body $params `
             -ContentType 'application/json' `

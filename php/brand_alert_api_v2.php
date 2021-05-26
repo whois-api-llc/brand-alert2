@@ -3,7 +3,7 @@
 $apiKey = 'Your brand alert api key';
 
 $header = "Content-Type: application/json\r\nAccept: application/json\r\n";
-$url = 'https://brand-alert-api.whoisxmlapi.com/api/v2';
+$url = 'https://brand-alert.whoisxmlapi.com/api/v2';
 
 $options = array(
     'http' => array(

@@ -31,7 +31,7 @@ headers = {
     'X-Authentication-Token': api_key
 }
 
-conn = http.HTTPSConnection('brand-alert-api.whoisxmlapi.com')
+conn = http.HTTPSConnection('brand-alert.whoisxmlapi.com')
 
 conn.request(
         'POST',

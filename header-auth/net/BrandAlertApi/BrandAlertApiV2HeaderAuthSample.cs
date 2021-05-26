@@ -17,7 +17,7 @@ namespace BrandAlertApi
         private const string ApiKey = "Your brand alert api key";
 
         private const string Url =
-            "https://brand-alert-api.whoisxmlapi.com/api/v2";
+            "https://brand-alert.whoisxmlapi.com/api/v2";
 
         private const string SearchParams =
             @"{
@@ -79,7 +79,7 @@ namespace BrandAlertApi
             }
 
             var res = "";
-            
+
             using (var response=(HttpWebResponse)httpWebRequest.GetResponse())
             using (var responseStream = response.GetResponseStream())
             {

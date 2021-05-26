@@ -25,7 +25,7 @@ my $search_params = '{
     "sinceDate": "2018-06-15"
 }';
 
-my $url = 'https://brand-alert-api.whoisxmlapi.com/api/v2';
+my $url = 'https://brand-alert.whoisxmlapi.com/api/v2';
 
 #######################
 # Use a JSON resource #

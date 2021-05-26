@@ -19,7 +19,7 @@ var post_data = {
 
 // Set request options
 var options = {
-    hostname: 'brand-alert-api.whoisxmlapi.com',
+    hostname: 'brand-alert.whoisxmlapi.com',
     path: '/api/v2',
     port: 443,
     method: 'POST',

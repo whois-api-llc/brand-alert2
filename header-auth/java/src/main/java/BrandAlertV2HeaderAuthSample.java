@@ -40,7 +40,7 @@ public class BrandAlertV2HeaderAuthSample
     public String sendPost() throws Exception
     {
         String userAgent = "Mozilla/5.0";
-        String url = "https://brand-alert-api.whoisxmlapi.com/api/v2";
+        String url = "https://brand-alert.whoisxmlapi.com/api/v2";
 
         URL obj = new URL(url);
         HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
